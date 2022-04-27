@@ -26,9 +26,9 @@ class TodoContainer extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <div>
         <TodosList todos={this.state.todos} />
-      </React.Fragment>
+      </div>
     );
   }
 }
