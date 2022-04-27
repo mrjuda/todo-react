@@ -45,7 +45,6 @@ class TodoContainer extends React.Component {
     this.setState({
       todos: [
         ...this.state.todos.filter(todo => {
-          console.log('Uia, deletasse >> ', id);
           return todo.id !== id;
         })
       ]
@@ -61,7 +60,6 @@ class TodoContainer extends React.Component {
     this.setState({
       todos: [...this.state.todos, newTodo]
     });
-    console.log('digitasse:',title);
   };
 
   render() {
