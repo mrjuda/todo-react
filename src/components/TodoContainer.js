@@ -8,8 +8,8 @@ import Header from './Header';
 import InputTodo from './InputTodo';
 import TodosList from './TodosList';
 import Navbar from './Navbar';
-import About from '../pages/About';
-import NotMatch from '../pages/NotMatch';
+// import About from '../pages/About';
+// import NotMatch from '../pages/NotMatch';
 
 const TodoContainer = () => {
   function getInitialTodos() {
@@ -31,8 +31,7 @@ const TodoContainer = () => {
           };
         }
         return todo;
-      })
-    );
+      }));
   };
 
   useEffect(() => {
