@@ -1,19 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { BrowserRouter as Router } from 'react-router-dom';
-
-//  component
+// component file
 import TodoContainer from './components/TodoContainer';
 
-//  stylesheet
+// stylesheet
 import './App.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
-      <TodoContainer />
-    </Router>
+    <TodoContainer />
   </React.StrictMode>,
   document.getElementById('root'),
 );
