@@ -1,18 +1,14 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/state-in-constructor */
-/* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
 
 class InputTodo extends Component {
   state = {
     title: '',
-  };
-
+  }
   onChange = (e) => {
     this.setState({
       [e.target.name]: e.target.value,
     });
-  };
+  }
 
   handleSubmit = (e) => {
     e.preventDefault();
@@ -37,7 +33,10 @@ class InputTodo extends Component {
           name="title"
           onChange={this.onChange}
         />
-        <button type="submit" className="input-submit">
+        <button
+          type="button"
+          className="input-submit"
+        >
           Submit
         </button>
       </form>
