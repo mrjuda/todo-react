@@ -1,13 +1,13 @@
-# Math Magicians React
+# Full todo-list app
 ## 📑 Project description
 **Build v1.2**
 
-This is a React project for educational purposes only.
-The To-do List project was built using SCSS, JS, HTML and Webpack and tested through Jest.
-
+Create a basic structure for a to-do list web application.
+The Todo project was built using ReactJS, SCSS, HTML, and tested through Jest.
+This is a React/Redux project for educational purposes only.
 
 ## 🛠 Built with
-- React / ES6
+- ReactJS / Redux
 - HTML5
 - CSS3
 
@@ -15,10 +15,12 @@ The To-do List project was built using SCSS, JS, HTML and Webpack and tested thr
 Live version: NOT YET
 
 ## ⚙️ Installation
-
+```git clone git@github.com:mrjuda/books-react.git```
 ### Development
+```cd books-react```
 To install this project in your machine, do the following:
-- After cloning the repository, run `npm start` from the root directory.
+- ```npm install```
+- ```npm start```
 - Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -37,4 +39,4 @@ For more details, follow the instructions in the [Official React Tutorial](https
 - Twitter: [@judalabs](https://twitter.com/judalabs "Judá Teixeira's Twitter profile")
 
 ## 📝License
-This project is [MIT](https://github.com/mrjuda/todo-react/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/mrjuda/books-react/blob/main/LICENSE) licensed.
