@@ -1,3 +1,7 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable no-param-reassign */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable arrow-body-style */
 import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Header from './Header';
