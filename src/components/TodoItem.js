@@ -1,7 +1,3 @@
-/* eslint-disable arrow-body-style */
-/* eslint-disable react/prop-types */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/button-has-type */
 import React, { useState, useEffect } from 'react';
 import styles from './TodoItem.module.css';
 
