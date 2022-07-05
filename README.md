@@ -1,6 +1,6 @@
 # Full todo-list app
 ## 📑 Project description
-**Build v1.2**
+**Build v1.3**
 
 Create a basic structure for a to-do list web application.
 The Todo project was built using ReactJS, SCSS, HTML, and tested through Jest.
